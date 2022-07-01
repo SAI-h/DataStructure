@@ -12,9 +12,7 @@
 在当前线性表上记录到的值不会出现不合理的覆盖情况
 */
 
-#include "seqList.h"
 #include "relatedFun.c"
-#include <time.h>
 
 // 法一
 void delItemX_1(seqList *T, int delItem) {

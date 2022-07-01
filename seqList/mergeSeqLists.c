@@ -2,9 +2,7 @@
 07.将两个有序的顺序表合并为一个有序的顺序表,并由作为函数返回值返回
 */
 
-#include "seqList.h"
 #include "relatedFun.c"
-#include <time.h>
 
 seqList mergeSeqLists(seqList *T, seqList *Q) {
     seqList res;

@@ -2,9 +2,7 @@
 04.从有序的顺序表中,删除给定值在s和t之间的所有元素,若s和t的值不合法或顺序表为空则输出错误信息并返回
 */
 
-#include "seqList.h"
 #include "relatedFun.c"
-#include <time.h>
 
 // 因为序列是有序的,因此依次遍历判断各个值即可
 void delItemXBetweenSandT(seqList *T, int s, int t) {

@@ -4,9 +4,7 @@
 若找不到,则将其插入表中,且表中依旧有序
 */
 
-#include "seqList.h"
 #include "relatedFun.c"
-#include <time.h>
 
 // 二分查找
 unsigned int BinSearch(seqList T, ElemType findItem) {

@@ -3,9 +3,7 @@
 编写一个函数,将数组中的两个顺序表的位置互换,即将(b1,b2,...,bn)放在(a1,a2,...,am)的前面
 */
 
-#include "seqList.h"
 #include "relatedFun.c"
-#include <time.h>
 
 void outputArray(ElemType A[], int len) {
     for(unsigned int i = 0; i < len; i ++) {

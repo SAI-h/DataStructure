@@ -3,9 +3,7 @@
 空出的位置由最后一个元素填补，若顺序表为空则显示出错信息并退出运行
 */
 
-#include "seqList.h"
 #include "relatedFun.c"
-#include <time.h>
 
 ElemType findAndDelTheMin(seqList *T) {
     // 若为空表显示出错信息,并退出

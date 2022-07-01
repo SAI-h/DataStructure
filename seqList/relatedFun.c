@@ -1,3 +1,5 @@
+#include "seqList.h"
+
 // 初始化一个顺序表
 bool initSqList(seqList *T) {
     T -> length = 0;
@@ -38,4 +40,14 @@ bool createOrderSqlist(seqList *T, unsigned int len, int range, int choice) {
         last = cur;
     }
     return T -> length == len;
+}
+
+// 取出两个元素中的较大值
+ElemType max(ElemType Item1, ElemType Item2) {
+    return Item1 > Item2 ? Item1 : Item2;
+}
+
+// 取出两个元素中的较小值
+ElemType min(ElemType Item1, ElemType Item2) {
+    return Item1 < Item2 ? Item1 : Item2;
 }

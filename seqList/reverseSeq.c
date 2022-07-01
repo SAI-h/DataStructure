@@ -2,9 +2,7 @@
 02.实现顺序表的逆置操作,空间复杂度为O(1)
 */
 
-#include "seqList.h"
 #include "relatedFun.c"
-#include <time.h>
 
 void reverseSeq(seqList *T) {
     for(unsigned int i = 0; i < T -> length / 2; i ++) {
