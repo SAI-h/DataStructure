@@ -1,0 +1,216 @@
+The original queue is:
+ | NULL (front & rear) | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL |
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:2
+The queue is empty!
+The queue after the operation is:
+ | NULL (front & rear) | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL |
+Exit? (y or n):n
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:1
+Please enter the element x:225
+Execute successfully!
+The queue after the operation is:
+ | 225 (front) | NULL (rear) | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL |
+Exit? (y or n):n
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:2
+Execute successfully!
+The element at the top of the queue that is removed is 225!
+The queue after the operation is:
+ | NULL | NULL (front & rear) | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL |
+Exit? (y or n):1
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:1
+Please enter the element x:1
+Execute successfully!
+The queue after the operation is:
+ | NULL | 1 (front) | NULL (rear) | NULL | NULL | NULL | NULL | NULL | NULL | NULL |
+Exit? (y or n):n
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:1
+Please enter the element x:2
+Execute successfully!
+The queue after the operation is:
+ | NULL | 1 (front) | 2 | NULL (rear) | NULL | NULL | NULL | NULL | NULL | NULL |
+Exit? (y or n):n
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:1
+Please enter the element x:3
+Execute successfully!
+The queue after the operation is:
+ | NULL | 1 (front) | 2 | 3 | NULL (rear) | NULL | NULL | NULL | NULL | NULL |
+Exit? (y or n):n
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:1
+Please enter the element x:4
+Execute successfully!
+The queue after the operation is:
+ | NULL | 1 (front) | 2 | 3 | 4 | NULL (rear) | NULL | NULL | NULL | NULL |
+Exit? (y or n):n
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:1
+Please enter the element x:5
+Execute successfully!
+The queue after the operation is:
+ | NULL | 1 (front) | 2 | 3 | 4 | 5 | NULL (rear) | NULL | NULL | NULL |
+Exit? (y or n):n
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:1
+Please enter the element x:6
+Execute successfully!
+The queue after the operation is:
+ | NULL | 1 (front) | 2 | 3 | 4 | 5 | 6 | NULL (rear) | NULL | NULL |
+Exit? (y or n):n
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:1
+Please enter the element x:7
+Execute successfully!
+The queue after the operation is:
+ | NULL | 1 (front) | 2 | 3 | 4 | 5 | 6 | 7 | NULL (rear) | NULL |
+Exit? (y or n):n
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:1
+Please enter the element x:8
+Execute successfully!
+The queue after the operation is:
+ | NULL | 1 (front) | 2 | 3 | 4 | 5 | 6 | 7 | 8 | NULL (rear) |
+Exit? (y or n):n
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:1
+Please enter the element x:9
+Execute successfully!
+The queue after the operation is:
+ | NULL (rear) | 1 (front) | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+Exit? (y or n):n
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:1
+Please enter the element x:10
+Execute successfully!
+The queue after the operation is:
+| 10| 1 (front & rear)| 2| 3| 4| 5| 6| 7| 8| 9 |
+Exit? (y or n):n
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:1
+Please enter the element x:11
+The queue is full!
+The queue after the operation is:
+| 10| 1 (front & rear)| 2| 3| 4| 5| 6| 7| 8| 9 |
+Exit? (y or n):n
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:2
+Execute successfully!
+The element at the top of the queue that is removed is 1!
+The queue after the operation is:
+ | 10 | NULL (rear) | 2 (front) | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+Exit? (y or n):2
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:2
+Execute successfully!
+The element at the top of the queue that is removed is 2!
+The queue after the operation is:
+ | 10 | NULL (rear) | NULL | 3 (front) | 4 | 5 | 6 | 7 | 8 | 9 |
+Exit? (y or n):n
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:1
+Please enter the element x:11
+Execute successfully!
+The queue after the operation is:
+ | 10 | 11 | NULL (rear) | 3 (front) | 4 | 5 | 6 | 7 | 8 | 9 |
+Exit? (y or n):n
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:2
+Execute successfully!
+The element at the top of the queue that is removed is 3!
+The queue after the operation is:
+ | 10 | 11 | NULL (rear) | NULL | 4 (front) | 5 | 6 | 7 | 8 | 9 |
+Exit? (y or n):n
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:2
+Execute successfully!
+The element at the top of the queue that is removed is 4!
+The queue after the operation is:
+ | 10 | 11 | NULL (rear) | NULL | NULL | 5 (front) | 6 | 7 | 8 | 9 |
+Exit? (y or n):n
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:2
+Execute successfully!
+The element at the top of the queue that is removed is 5!
+The queue after the operation is:
+ | 10 | 11 | NULL (rear) | NULL | NULL | NULL | 6 (front) | 7 | 8 | 9 |
+Exit? (y or n):n
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:2
+Execute successfully!
+The element at the top of the queue that is removed is 6!
+The queue after the operation is:
+ | 10 | 11 | NULL (rear) | NULL | NULL | NULL | NULL | 7 (front) | 8 | 9 |
+Exit? (y or n):n
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:2
+Execute successfully!
+The element at the top of the queue that is removed is 7!
+The queue after the operation is:
+ | 10 | 11 | NULL (rear) | NULL | NULL | NULL | NULL | NULL | 8 (front) | 9 |
+Exit? (y or n):n
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:2 
+Execute successfully!
+The element at the top of the queue that is removed is 8!
+The queue after the operation is:
+ | 10 | 11 | NULL (rear) | NULL | NULL | NULL | NULL | NULL | NULL | 9 (front) |
+Exit? (y or n):n 
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:2 
+Execute successfully!
+The element at the top of the queue that is removed is 9!
+The queue after the operation is:
+ | 10 (front) | 11 | NULL (rear) | NULL | NULL | NULL | NULL | NULL | NULL | NULL |
+Exit? (y or n):n 
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:2 
+Execute successfully!
+The element at the top of the queue that is removed is 10!
+The queue after the operation is:
+ | NULL | 11 (front) | NULL (rear) | NULL | NULL | NULL | NULL | NULL | NULL | NULL |
+Exit? (y or n):n 
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:2 
+Execute successfully!
+The element at the top of the queue that is removed is 11!
+The queue after the operation is:
+ | NULL | NULL | NULL (front & rear) | NULL | NULL | NULL | NULL | NULL | NULL | NULL |
+Exit? (y or n):n 
+Operation list:
+1.Push X into the queue.                        2.Remove the top element of the queue.
+Please enter the operation to be performed:2 
+The queue is empty!
+The queue after the operation is:
+ | NULL | NULL | NULL (front & rear) | NULL | NULL | NULL | NULL | NULL | NULL | NULL |
+Exit? (y or n):y

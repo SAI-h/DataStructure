@@ -1,0 +1,225 @@
+The original stack is:
+ | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL |
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:1
+Please enter the element x:1
+Execute successfully!
+The stack after the operation is:
+ | 1 (top_0) | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL |
+Exit? (y or n):d
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:3
+Execute successfully!
+The element at the top of the stack that is removed is 1!
+The stack after the operation is:
+ | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:1
+Please enter the element x:21
+Execute successfully!
+The stack after the operation is:
+ | 21 (top_0) | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:2
+Please enter the element x:22
+Execute successfully!
+The stack after the operation is:
+ | 21 (top_0) | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL | 22 (top_1) |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:2
+Please enter the element x:23
+Execute successfully!
+The stack after the operation is:
+ | 21 (top_0) | NULL | NULL | NULL | NULL | NULL | NULL | NULL | 23 (top_1) | 22 |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:2
+Please enter the element x:25
+Execute successfully!
+The stack after the operation is:
+ | 21 (top_0) | NULL | NULL | NULL | NULL | NULL | NULL | 25 (top_1) | 23 | 22 |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:1
+Please enter the element x:24
+Execute successfully!
+The stack after the operation is:
+ | 21 | 24 (top_0) | NULL | NULL | NULL | NULL | NULL | 25 (top_1) | 23 | 22 |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:1
+Please enter the element x:21
+Execute successfully!
+The stack after the operation is:
+ | 21 | 24 | 21 (top_0) | NULL | NULL | NULL | NULL | 25 (top_1) | 23 | 22 |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:1
+Please enter the element x:26
+Execute successfully!
+The stack after the operation is:
+ | 21 | 24 | 21 | 26 (top_0) | NULL | NULL | NULL | 25 (top_1) | 23 | 22 |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:1 
+Please enter the element x:27
+Execute successfully!
+The stack after the operation is:
+ | 21 | 24 | 21 | 26 | 27 (top_0) | NULL | NULL | 25 (top_1) | 23 | 22 |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:2
+Please enter the element x:222
+Execute successfully!
+The stack after the operation is:
+ | 21 | 24 | 21 | 26 | 27 (top_0) | NULL | 222 (top_1) | 25 | 23 | 22 |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:1
+Please enter the element x:2112
+Execute successfully!
+The stack after the operation is:
+ | 21 | 24 | 21 | 26 | 27 | 2112 (top_0) | 222 (top_1) | 25 | 23 | 22 |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:1
+Please enter the element x:11
+The stack is full!
+The stack after the operation is:
+ | 21 | 24 | 21 | 26 | 27 | 2112 (top_0) | 222 (top_1) | 25 | 23 | 22 |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:4
+Execute successfully!
+The element at the top of the stack that is removed is 222!
+The stack after the operation is:
+ | 21 | 24 | 21 | 26 | 27 | 2112 (top_0) | NULL | 25 (top_1) | 23 | 22 |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:4
+Execute successfully!
+The element at the top of the stack that is removed is 25!
+The stack after the operation is:
+ | 21 | 24 | 21 | 26 | 27 | 2112 (top_0) | NULL | NULL | 23 (top_1) | 22 |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:4
+Execute successfully!
+The element at the top of the stack that is removed is 23!
+The stack after the operation is:
+ | 21 | 24 | 21 | 26 | 27 | 2112 (top_0) | NULL | NULL | NULL | 22 (top_1) |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:4
+Execute successfully!
+The element at the top of the stack that is removed is 22!
+The stack after the operation is:
+ | 21 | 24 | 21 | 26 | 27 | 2112 (top_0) | NULL | NULL | NULL | NULL |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:4
+The stack is empty!
+The stack after the operation is:
+ | 21 | 24 | 21 | 26 | 27 | 2112 (top_0) | NULL | NULL | NULL | NULL |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:3
+Execute successfully!
+The element at the top of the stack that is removed is 2112!
+The stack after the operation is:
+ | 21 | 24 | 21 | 26 | 27 (top_0) | NULL | NULL | NULL | NULL | NULL |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:3
+Execute successfully!
+The element at the top of the stack that is removed is 27!
+The stack after the operation is:
+ | 21 | 24 | 21 | 26 (top_0) | NULL | NULL | NULL | NULL | NULL | NULL |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:3
+Execute successfully!
+The element at the top of the stack that is removed is 26!
+The stack after the operation is:
+ | 21 | 24 | 21 (top_0) | NULL | NULL | NULL | NULL | NULL | NULL | NULL |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:3
+Execute successfully!
+The element at the top of the stack that is removed is 21!
+The stack after the operation is:
+ | 21 | 24 (top_0) | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:3
+Execute successfully!
+The element at the top of the stack that is removed is 24!
+The stack after the operation is:
+ | 21 (top_0) | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:3
+Execute successfully!
+The element at the top of the stack that is removed is 21!
+The stack after the operation is:
+ | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL |
+Exit? (y or n):n
+Operation list:
+1.Push X into the stack_0.                      2.Push X into the stack_1.
+3.Remove the top element of the stack_0.        4.Remove the top element of the stack_1.
+Please enter the operation to be performed:3
+The stack is empty!
+The stack after the operation is:
+ | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL | NULL |
+Exit? (y or n):y
